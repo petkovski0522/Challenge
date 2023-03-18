@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    height: 40px;
+    color: white;
+  
+}
+
+.first-part {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #638CAA;
+}
+
+.second-part {
+    float: right;
+    width: 50%;
+    background-color: #638CAA;
+    height: 100%;
+    text-align: right;
+    padding-top: 15px;
+    word-spacing: 2px;
+}
+.second-part a {
+    color: white;
+    text-decoration: none;   
+    padding-right: 40px;
+}
+.second-part a:hover{
+    color: red;
+}
+.section-1 img {
+    max-height: 30px;
+    padding-left: 100px;
+    
+}
+.apple-devices {
+    background-color: #638CAA;
+}
+.apple-devices img {
+    display: block; margin: 0 auto;
+}
+.icons {
+    height: 80px;
+    text-align: center;
+    color: black;
+    }
+.icons i {
+    font-size: 100px;
+}    
+.macbook {
+    width: 25%;
+    height: 160;
+    background-color: #DBDBDB;
+    float: left;
+    
+}
+.ipad {
+    width: 25%;
+    height: 160;
+    background-color: #BCB9AA;
+    float: left;
+}
+.iphone-x {
+    width: 25%;
+    height: 160;
+    float: left;
+    background-color: #9CE0D1;
+}
+.about {
+    width: 25%;
+    height: 160;
+    float: left;
+    background-color: #9AA7B8;
+    
+}
+.icons i {
+    padding-top:  50px;
+    font-size: 45px;
+    height: 120px
+}
+.icons h3 {
+    padding-bottom: 15px;
+}
+.section-2 {
+    height: 300px;
+    text-align: center;
+}
+.ipad-img{
+    height: inherit;
+    background-color: #B7CED6;
+    float: left;
+    width: 50%;
+}
+.ipad-img img {
+    max-height: 280px;
+    padding-top: 50px;
+}
+.ipad-txt {
+    height: inherit;
+    float: right;
+    width: 50%;
+    background-color: #9AA7B8;
+}
+.ipad-txt h2 {
+    padding: 20px;
+    color: white;
+}
+.ipad-txt p {
+    padding: 30px 10px;
+    color: white;
+}
+.section-3 {
+    height: 300px;
+    text-align: center;
+}
+.iphone-txt{
+    height: inherit;
+    background-color: #BCB9AA;
+    float: left;
+    width: 50%;
+}
+.iphone-txt h2 {
+    padding: 20px;
+    color: white;
+}
+.iphone-txt p {
+    padding: 30px 10px;
+    color: white;
+}
+.iphone-img {
+    height: 300px;
+    background-color: #B7CED6;
+    float: right;
+    width: 50%;
+}
+.iphone-img img {
+    max-height: 300px;
+    padding-top: 50px;
+}
+.section-4 {
+    height: 300px;
+    text-align: center;
+}
+.macbook-img {
+    height: inherit;
+    background-color: #B7CED6;
+    float: left;
+    width: 50%;
+}
+.macbook-img img {
+    max-height: 300px;
+}
+.macbook-txt {
+    height: inherit;
+    background-color: #F09E84;
+    float: right;
+    width: 50%;
+    border-bottom: 30px solid #638CAA;
+}
+.macbook-txt p {
+    padding: 30px 10px;
+    color: white;
+}
+.macbook-txt h2 {
+    padding: 20px;
+    color: white;
+}
+.section-5 {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    overflow: auto;
+    
+}
+.team {
+    width: 32%;
+    float: left;
+    background-color: #9AA7B8;
+    
+    height: inherit;
+}
+.team  h2{
+    padding: 20px;    
+}
+.team p {
+    padding-top: 30px;
+    color: white;
+}
+.sallary {
+    width: 35%;
+    float: left;
+    background-color: #BCB9AA;
+    
+    height: inherit;
+}
+.sallary h2 {
+    padding: 20px;
+}
+.sallary p  {
+    padding-top: 30px;
+    color: white;
+}
+.earnings {   
+   width: 33%;
+    float: left;
+    background-color: #9CE0D1;
+    height: inherit;
+}
+.earnings h2 {
+    padding: 20px;
+}
+.earnings p {
+    padding-top: 30px;
+    color: white;
+}
+.section-6 {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    background-color: #638CAA;
+    font-size: 50px;
+    padding-top: 80px;
+}
+.section-6 i {
+    color: white;
+    padding: 0px 70px;
+}
+footer {
+    height: 70px;
+    text-align: center;
+    background-color: #514354;
+    padding: 20px 0px;
+    color: white;
+}
