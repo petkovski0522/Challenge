@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:rgba(39, 40, 51, 1);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    
+}
+header a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+nav a {
+    display: inline-block;
+    padding-right: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+    padding-right: 25px;
+}
+nav button {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 15%;
+}
+.section-1 {
+    background-color: rgba(39, 40, 51, 1);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+.section-1-centar {
+    text-align: center;
+    width: 40%;
+    color: white;
+    padding-top: 70px;
+}
+.section-1-centar h1 p  {
+    padding:  10px;
+
+}
+.section-2{
+    background-image: url(./images/picture1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 670px ;
+    display: flex ;
+    justify-content: space-around;
+    
+    align-items: flex-end;
+}
+.section-2-center {
+    display: flex ;
+    justify-content: space-around;
+    background-color:rgba(39, 40, 51, .85) ;
+    color: white;
+    border-top: 4px solid red;
+    height: 35%;
+}
+.section-22,
+.section-23 {
+   
+    margin: 30px 30px;
+   
+}
+.section-3 {
+    background-image: url(./images/picture2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 680px;
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.section-3-right{
+    width: 30%;
+    height: 100%;
+    background-color:  rgba(39, 40, 51, .85);
+    border-left: 5px solid darkblue;
+    color: white;
+}
+
+
+.section-4 {
+    background-image: url(./images/picture3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.button-style {
+    background-color: rgba(39, 40, 51, .85);;
+    border: 1px white solid ;
+    color: white;
+}
+
+.section-4-left {
+    width: 30%;
+    height: inherit;
+    
+    
+    background-color:  rgba(39, 40, 51, .85);
+    border-right: 5px solid greenyellow;
+    color: white;
+}
+.txt{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39, 40, 51, 1) ;
+    color: white;
+}
+.section-5 {
+    background-color: rgba(39, 40, 51, 1);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 300px;
+    font-size: 15px;
+    align-items: center;
+    }
+
+ .section-5 i {
+    font-size: 35px;
+ }   
+.centar {
+    border-top: 4px solid red;
+    margin: 25px;
+}
+.section-6 {
+    background-color: red;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section-6 button {
+    padding: 5px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 15%;
+}
+
+.section-6 input {
+    background-color: red;
+    color: white;
+
+}
+footer {
+    background-color: rgba(39, 40, 51, 1);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    
+
+    
+}
+footer i  {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
